@@ -40,33 +40,51 @@ The ultimate agentic AI control experience for developers. <a href="https://pieb
 
 - **Agent Skills & Plan Mode** – Load [agent skills](https://agentskills.io/home), use plan mode to devise multi-step solutions, and manage context with manual or auto-compaction.
 
-- **Deep File & Project Integration** – Use `@-mentioning` to reference files, leverage `AGENTS.md` for project-wide instructions, and interact with the filesystem through powerful agent tools.
+- **Multi-Provider AI** – Support for OpenAI, Anthropic, Google Gemini, Amazon Bedrock, and GitHub Copilot. Sign in directly with your ChatGPT, Claude, or Gemini subscription.
 
-- **Multi-Provider AI** – Support for OpenAI, Anthropic, Google Gemini, and Amazon Bedrock. (OAuth login for ChatGPT/Claude subscriptions coming soon).
+- **Subagents** – Spawn sub-agents to tackle tasks in parallel, with full control over their model and profile before approval.
+
+- **Chat Branching & Pausing** – Branch conversations to explore alternative paths and pause the agentic loop at any time to review or redirect.
+
+- **Live Interactive Terminal** – The agent's terminal commands are run in a real terminal with real-time output.
+
+- **Image Support** – Attach and reference images in your conversations for visual context.
+
+- **Web Version** – Use Piebald directly in the browser with no installation required.
 
 - **Integrated Search & Web Fetch** – Agents can perform web searches and fetch content from URLs to stay informed with real-time data.
+
+See the [pricing page](https://piebald.ai/pricing) for more details.
 
 ---
 
 ## Roadmap
 
-### 🚧 In Progress
-- **Direct OAuth Login**
-- **Chat Pausing & Branching**
-- **Enhanced Project Support**
-- **Context Management**
+### In Progress
+- **Enhanced Project Support** – Git worktree support and more
+- **Subscription Usage** – Viewing subscription usage in-app
+- **Context Editing**
+- **Piebald Cloud** – Storing and syncing conversations and configurations
+- **File Browser** – File browser with Git support
 
-### 📅 Planned
-- **Web Version**
-- **Sub-agents**
-- **Unified Import**
-- **Piebald Cloud**
+### Planned
+- **Unified Import** – Importing chats from Claude Code, Gemini CLI, Codex, Cursor, etc.
+- **Hooks**
+- **Local Models** – Running local models
+- **Token Usage Metrics** – Accurate token usage metrics
+- **Statistics Page**
 
-### 🚀 Future
+### Future
+- **Custom Themes**
+- **Custom Tools**
+- **Edit/Command Sandboxing**
+- **Archiving Chats**
+- **Markdown Element Customizations**
+- **Replay Streamed Responses**
 - **MCP Traffic Viewer**
-- **Sandboxing**
-- **Customization**
-- **Smart Notifications**
+- **Multi-Version MCP Support**
+
+> If there's something not on this list that you want to see added, let us know on [GitHub](https://github.com/Piebald-AI/piebald/issues/new) or [Discord](https://piebald.ai/discord) and we'll prioritize it!
 
 ---
 
@@ -83,5 +101,5 @@ The ultimate agentic AI control experience for developers. <a href="https://pieb
 ## Support
 
 - [Discord](https://piebald.ai/discord) – Real-time community support
-- [X (formerly Twitter)](https://x.com/PiebaldAI) – Official updates
+- [X](https://x.com/PiebaldAI) – Official updates
 - Email: support@piebald.ai
